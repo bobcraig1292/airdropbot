@@ -1,0 +1,23 @@
+{
+  "name": "imskaaz/airdropbot",
+  "description": "Simple Telegram bot application for various free crypto-tokens Airdrop campaigns",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "imskaaz",
+      "email": "imskaa.co@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  },
+  "require": {
+    "php":">=7.3.0",
+    "ext-pdo": "*",
+    "longman/telegram-bot": "*"
+  }
+}
