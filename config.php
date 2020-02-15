@@ -4,7 +4,7 @@ return [
 	/**
 	 * Bot's API token
 	 */
-	'bot_token' => '1088516078:AAFg7TUEWIOCJ2-qhvK-9xyFMZW24_L7gBk',
+	'bot_token' => '---',
 	/**
 	 * Bot's username without @ symbol
 	 */
@@ -23,16 +23,16 @@ return [
 	/**
 	 * Webhook url. Not needed if you will use any of getUpdates() method
 	 */
-	'webhook_url' => 'https://bot.bulkplatform.com/',
+	'webhook_url' => '---',
 	/**
 	 * MySQL database credentials. Always necessary.
 	 */
 	'db' => [
 		'host'     => 'localhost',
 		'port'     => 3306,
-		'user'     => 'wpforest_bdro',
-		'password' => 'wpforest_bdro',
-		'database' => 'wpforest_bdro',
+		'user'     => '',
+		'password' => '',
+		'database' => '',
 	],
 	/**
 	 * Enable or disable logs (/app/logs dir needs to be at least 755 accesses)
